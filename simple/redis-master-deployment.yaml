@@ -19,6 +19,9 @@ spec:
       containers:
       - name: master
         image: public.ecr.aws/ubuntu/redis:latest
+        env:
+        - name: ALLOW_EMPTY_PASSWORD
+        - value: "yes"
         resources:
           requests:
             cpu: 100m
