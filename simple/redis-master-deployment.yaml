@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: master
-        image: gcr.io/google-samples/redis
+        image: gcr.io/google-samples/redis:v1
         resources:
           requests:
             cpu: 100m
