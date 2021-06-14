@@ -21,7 +21,7 @@ spec:
         image: public.ecr.aws/ubuntu/redis:latest
         env:
         - name: ALLOW_EMPTY_PASSWORD
-        - value: "yes"
+          value: "yes"
         resources:
           requests:
             cpu: 100m
